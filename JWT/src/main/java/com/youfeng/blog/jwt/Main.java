@@ -7,7 +7,7 @@ import io.jsonwebtoken.Jwts;
 import static com.youfeng.blog.jwt.utils.JwtUtil.getJwt;
 
 /**
- * @author -无心
+ * @author -侑枫
  * @date 2023/7/31 13:47:05
  */
 public class Main {
