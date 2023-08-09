@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://47.120.5.13:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai"
+    username: "['you databases username']"
+    password: "['you databases password']"
+
+logging:
+  level:
+    root: warn
+    com.scaffold.test.mapper: trace
